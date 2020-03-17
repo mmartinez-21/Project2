@@ -38,7 +38,7 @@ nav {
   background-color: black;
   list-style: none;
   display: inline-block;
-  float: center;
+  /* float: center;*/
   line-height: 50px;
 }
 
@@ -185,7 +185,7 @@ img.interest-images {
 
 /* 3rd page style element */
 .video iframe {
-  margin: 10px 0 10px, 20px;
+  margin: 10px 0 10px 20px;
   border-radius: 14px;
   box-shadow: 8px 8px 6px red;
 }
