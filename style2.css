@@ -13,6 +13,7 @@ div {
 .BigTitle {
   font-family: 'Playfair Display', serif;
   color: black;
+  text-shadow: 0 0 2px white;
 }
 
 /* third same style element */
@@ -38,7 +39,7 @@ nav {
   background-color: black;
   list-style: none;
   display: inline-block;
-  /* float: center;*/
+  /*float: center; */
   line-height: 50px;
 }
 
@@ -110,14 +111,36 @@ h3 {
   font-size: 25px;
   margin: 0 10px;
   padding: 10px 10px 5px 5px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
+}
+
+/* 1st page style element */
+.page-1-section {
+  display: block;
+  margin: 10px 10px;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 2px outset;
+  box-shadow: 0 0 2px black;
+  background-color: white;
+  
+}
+
+/* 1st page style element */
+.gapper {
+  border-bottom: 2px dotted;
+  padding: 0;
 }
 
 /* 1st page style element */
 .contact {
-  border-style: dotted;
-  border-bottom: 2px dotted;
-  border-color: black;
+  display: block;
+  margin: 10px 10px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: 2px outset;
+  box-shadow: 0 0 2px black;
+  background-color: white;
 }
 
 /* 2nd page style element */
