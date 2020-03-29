@@ -151,12 +151,20 @@ h3 {
   text-align: center;
 }
 
+.centering {
+  display: block;
+  text-align: center;
+  margin: 10px auto 10px auto;
+  
+}
+
 /* 2nd page style element */
 img.interest-images {
-  display: block;
-  margin: 10px auto 10px auto;
-  box-shadow: 6px 6px 8px black;
+  /*margin: 10px auto 10px auto; 
+  box-shadow: 6px 6px 8px black;*/
   border-radius: 5px;
+  padding: 0px;
+
 }
 
 /* 2nd page style element */
@@ -192,7 +200,7 @@ img.interest-images {
 .fixed-body {
   width: 960px;
   margin: 0px auto 0px auto;
-  background-color: rgb(204,255,229);
+  background-color: rgb(204,229,255);
 }
 
 /* 3rd page style element */
